@@ -8,11 +8,13 @@ The client is by default in push mode, the source sending data blocks to the des
 
 <h2>Usage</h2>
 
-Usage on Server
-$ java -jar syncserver.jar -file filename
+<h4>Usage on Server</h4>
+<p> java -jar syncserver.jar -file filename </p>
 
-Usage on Client
-$ java -jar syncclient.jar -file filename -host hostname [-direction push/pull] [-blocksize blocksize]
+<h4>Usage on Client</h4>
+<p> java -jar syncclient.jar -file filename -host hostname [-direction push/pull] [-blocksize blocksize] </p>
 
 <h3>For more information</h3>
 See detailed_readme.txt.
+
+Credits: Part of this code written by Dr. Aaron Harwood at the University of Melbourne.
